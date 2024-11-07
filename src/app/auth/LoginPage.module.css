@@ -1,0 +1,58 @@
+.loginContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 2em;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: .5em;
+  }
+  
+  input {
+    padding: .7em;
+    margin-bottom: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .loginButton {
+    padding: .7em;
+    border-radius: 4px;
+    border: none;
+    background-color: #007BFF; 
+    color: white;
+    cursor: pointer;
+  }
+  
+  .signupButton {
+      padding: .7em;
+      border-radius: 4px;
+      border: none;
+      background-color: #28a745; 
+      color: white;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      opacity: .9; 
+  }
+  
